@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.levy;
+})();
 })();
 </script>
 ```
@@ -141,9 +143,11 @@ var y = dist.pdf( 2.5 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( objectKeys( levy ) );
 
+})();
 })();
 </script>
 </body>
@@ -235,29 +239,29 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/levy/ctor]: https://github.com/stdlib-js/stats-base-dists-levy-ctor/tree/umd
+[@stdlib/stats/base/dists/levy/ctor]: https://github.com/stdlib-js/stats-base-dists-levy-ctor/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/levy/entropy]: https://github.com/stdlib-js/stats-base-dists-levy-entropy/tree/umd
+[@stdlib/stats/base/dists/levy/entropy]: https://github.com/stdlib-js/stats-base-dists-levy-entropy/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/levy/mean]: https://github.com/stdlib-js/stats-base-dists-levy-mean/tree/umd
+[@stdlib/stats/base/dists/levy/mean]: https://github.com/stdlib-js/stats-base-dists-levy-mean/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/levy/median]: https://github.com/stdlib-js/stats-base-dists-levy-median/tree/umd
+[@stdlib/stats/base/dists/levy/median]: https://github.com/stdlib-js/stats-base-dists-levy-median/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/levy/mode]: https://github.com/stdlib-js/stats-base-dists-levy-mode/tree/umd
+[@stdlib/stats/base/dists/levy/mode]: https://github.com/stdlib-js/stats-base-dists-levy-mode/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/levy/stdev]: https://github.com/stdlib-js/stats-base-dists-levy-stdev/tree/umd
+[@stdlib/stats/base/dists/levy/stdev]: https://github.com/stdlib-js/stats-base-dists-levy-stdev/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/levy/variance]: https://github.com/stdlib-js/stats-base-dists-levy-variance/tree/umd
+[@stdlib/stats/base/dists/levy/variance]: https://github.com/stdlib-js/stats-base-dists-levy-variance/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/levy/cdf]: https://github.com/stdlib-js/stats-base-dists-levy-cdf/tree/umd
+[@stdlib/stats/base/dists/levy/cdf]: https://github.com/stdlib-js/stats-base-dists-levy-cdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/levy/logcdf]: https://github.com/stdlib-js/stats-base-dists-levy-logcdf/tree/umd
+[@stdlib/stats/base/dists/levy/logcdf]: https://github.com/stdlib-js/stats-base-dists-levy-logcdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/levy/logpdf]: https://github.com/stdlib-js/stats-base-dists-levy-logpdf/tree/umd
+[@stdlib/stats/base/dists/levy/logpdf]: https://github.com/stdlib-js/stats-base-dists-levy-logpdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/levy/pdf]: https://github.com/stdlib-js/stats-base-dists-levy-pdf/tree/umd
+[@stdlib/stats/base/dists/levy/pdf]: https://github.com/stdlib-js/stats-base-dists-levy-pdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/levy/quantile]: https://github.com/stdlib-js/stats-base-dists-levy-quantile/tree/umd
+[@stdlib/stats/base/dists/levy/quantile]: https://github.com/stdlib-js/stats-base-dists-levy-quantile/tree/umd/tree/umd
 
 <!-- </toc-links> -->
 
