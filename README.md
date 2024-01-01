@@ -35,30 +35,20 @@ limitations under the License.
 
 > Lévy distribution.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-base-dists-levy
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var levy = require( '@stdlib/stats-base-dists-levy' );
+import levy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { Levy, cdf, entropy, logcdf, logpdf, mean, median, mode, pdf, quantile, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy@esm/index.mjs';
 ```
 
 #### levy
@@ -116,7 +106,7 @@ The namespace contains a constructor function for creating a [Lévy][levy-distri
 <!-- </toc> -->
 
 ```javascript
-var Levy = require( '@stdlib/stats-base-dists-levy' ).Levy;
+var Levy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy' ).Levy;
 
 var dist = new Levy( 2.0, 4.0 );
 
@@ -136,11 +126,20 @@ var y = dist.pdf( 2.5 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var levy = require( '@stdlib/stats-base-dists-levy' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
+import levy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy@esm/index.mjs';
 
 console.log( objectKeys( levy ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -164,7 +163,7 @@ console.log( objectKeys( levy ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -228,29 +227,29 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/levy/ctor]: https://github.com/stdlib-js/stats-base-dists-levy-ctor
+[@stdlib/stats/base/dists/levy/ctor]: https://github.com/stdlib-js/stats-base-dists-levy-ctor/tree/esm
 
-[@stdlib/stats/base/dists/levy/entropy]: https://github.com/stdlib-js/stats-base-dists-levy-entropy
+[@stdlib/stats/base/dists/levy/entropy]: https://github.com/stdlib-js/stats-base-dists-levy-entropy/tree/esm
 
-[@stdlib/stats/base/dists/levy/mean]: https://github.com/stdlib-js/stats-base-dists-levy-mean
+[@stdlib/stats/base/dists/levy/mean]: https://github.com/stdlib-js/stats-base-dists-levy-mean/tree/esm
 
-[@stdlib/stats/base/dists/levy/median]: https://github.com/stdlib-js/stats-base-dists-levy-median
+[@stdlib/stats/base/dists/levy/median]: https://github.com/stdlib-js/stats-base-dists-levy-median/tree/esm
 
-[@stdlib/stats/base/dists/levy/mode]: https://github.com/stdlib-js/stats-base-dists-levy-mode
+[@stdlib/stats/base/dists/levy/mode]: https://github.com/stdlib-js/stats-base-dists-levy-mode/tree/esm
 
-[@stdlib/stats/base/dists/levy/stdev]: https://github.com/stdlib-js/stats-base-dists-levy-stdev
+[@stdlib/stats/base/dists/levy/stdev]: https://github.com/stdlib-js/stats-base-dists-levy-stdev/tree/esm
 
-[@stdlib/stats/base/dists/levy/variance]: https://github.com/stdlib-js/stats-base-dists-levy-variance
+[@stdlib/stats/base/dists/levy/variance]: https://github.com/stdlib-js/stats-base-dists-levy-variance/tree/esm
 
-[@stdlib/stats/base/dists/levy/cdf]: https://github.com/stdlib-js/stats-base-dists-levy-cdf
+[@stdlib/stats/base/dists/levy/cdf]: https://github.com/stdlib-js/stats-base-dists-levy-cdf/tree/esm
 
-[@stdlib/stats/base/dists/levy/logcdf]: https://github.com/stdlib-js/stats-base-dists-levy-logcdf
+[@stdlib/stats/base/dists/levy/logcdf]: https://github.com/stdlib-js/stats-base-dists-levy-logcdf/tree/esm
 
-[@stdlib/stats/base/dists/levy/logpdf]: https://github.com/stdlib-js/stats-base-dists-levy-logpdf
+[@stdlib/stats/base/dists/levy/logpdf]: https://github.com/stdlib-js/stats-base-dists-levy-logpdf/tree/esm
 
-[@stdlib/stats/base/dists/levy/pdf]: https://github.com/stdlib-js/stats-base-dists-levy-pdf
+[@stdlib/stats/base/dists/levy/pdf]: https://github.com/stdlib-js/stats-base-dists-levy-pdf/tree/esm
 
-[@stdlib/stats/base/dists/levy/quantile]: https://github.com/stdlib-js/stats-base-dists-levy-quantile
+[@stdlib/stats/base/dists/levy/quantile]: https://github.com/stdlib-js/stats-base-dists-levy-quantile/tree/esm
 
 <!-- </toc-links> -->
 
