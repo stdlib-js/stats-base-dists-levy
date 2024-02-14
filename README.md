@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import levy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy@deno/mod.js';
+import levy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Levy, cdf, entropy, logcdf, logpdf, mean, median, mode, pdf, quantile, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy@deno/mod.js';
+import { Levy, cdf, entropy, logcdf, logpdf, mean, median, mode, pdf, quantile, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy@v0.2.0-deno/mod.js';
 ```
 
 #### levy
@@ -128,7 +128,7 @@ var y = dist.pdf( 2.5 );
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import levy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy@deno/mod.js';
+import levy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy@v0.2.0-deno/mod.js';
 
 console.log( objectKeys( levy ) );
 ```
