@@ -4,9 +4,161 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-02-24)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+<section class="package" id="stats-base-dists-levy-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/levy/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/levy/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a0cf7f4`](https://github.com/stdlib-js/stdlib/commit/a0cf7f458576b1a1d4222fbd75d6544b57edcedd) - add C implementation for `stats/base/dists/levy/mean` [(#4071)](https://github.com/stdlib-js/stdlib/pull/4071)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3726](https://github.com/stdlib-js/stdlib/issues/3726)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-levy-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/levy/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/levy/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9ca3aff`](https://github.com/stdlib-js/stdlib/commit/9ca3aff4e92f1d7603edfe755fd7f572f97a260c) - add C implementation for `stats/base/dists/levy/mode`   [(#4078)](https://github.com/stdlib-js/stdlib/pull/4078)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3728](https://github.com/stdlib-js/stdlib/issues/3728)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-levy-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/levy/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/levy/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`22f6479`](https://github.com/stdlib-js/stdlib/commit/22f64794de72b72a085ab840b4058b4b138f14e3) - add C implementation for `stats/base/dists/levy/stdev` [(#4077)](https://github.com/stdlib-js/stdlib/pull/4077)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3731](https://github.com/stdlib-js/stdlib/issues/3731)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 3 issues were closed in this release:
+
+[#3726](https://github.com/stdlib-js/stdlib/issues/3726), [#3728](https://github.com/stdlib-js/stdlib/issues/3728), [#3731](https://github.com/stdlib-js/stdlib/issues/3731)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Vivek Maurya
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`f505ed5`](https://github.com/stdlib-js/stdlib/commit/f505ed56b0c0cc20458f9e51760d45d5abd60b36) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
+-   [`177f0a0`](https://github.com/stdlib-js/stdlib/commit/177f0a00909c097be05d47107a3e6ab05b865409) - **chore:** consistently use differential entropy for continuous distributions _(by Philipp Burckhardt)_
+-   [`22f6479`](https://github.com/stdlib-js/stdlib/commit/22f64794de72b72a085ab840b4058b4b138f14e3) - **feat:** add C implementation for `stats/base/dists/levy/stdev` [(#4077)](https://github.com/stdlib-js/stdlib/pull/4077) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
+-   [`9ca3aff`](https://github.com/stdlib-js/stdlib/commit/9ca3aff4e92f1d7603edfe755fd7f572f97a260c) - **feat:** add C implementation for `stats/base/dists/levy/mode`   [(#4078)](https://github.com/stdlib-js/stdlib/pull/4078) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
+-   [`a0cf7f4`](https://github.com/stdlib-js/stdlib/commit/a0cf7f458576b1a1d4222fbd75d6544b57edcedd) - **feat:** add C implementation for `stats/base/dists/levy/mean` [(#4071)](https://github.com/stdlib-js/stdlib/pull/4071) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
+-   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 
