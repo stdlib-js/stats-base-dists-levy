@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-11-21)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
@@ -40,9 +40,9 @@
 
 ### Closed Issues
 
-A total of 12 issues were closed in this release:
+A total of 13 issues were closed in this release:
 
-[#3722](https://github.com/stdlib-js/stdlib/issues/3722), [#3723](https://github.com/stdlib-js/stdlib/issues/3723), [#3724](https://github.com/stdlib-js/stdlib/issues/3724), [#3726](https://github.com/stdlib-js/stdlib/issues/3726), [#3727](https://github.com/stdlib-js/stdlib/issues/3727), [#3728](https://github.com/stdlib-js/stdlib/issues/3728), [#3729](https://github.com/stdlib-js/stdlib/issues/3729), [#3730](https://github.com/stdlib-js/stdlib/issues/3730), [#3731](https://github.com/stdlib-js/stdlib/issues/3731), [#3732](https://github.com/stdlib-js/stdlib/issues/3732), [#4977](https://github.com/stdlib-js/stdlib/issues/4977), [#5893](https://github.com/stdlib-js/stdlib/issues/5893)
+[#3722](https://github.com/stdlib-js/stdlib/issues/3722), [#3723](https://github.com/stdlib-js/stdlib/issues/3723), [#3724](https://github.com/stdlib-js/stdlib/issues/3724), [#3726](https://github.com/stdlib-js/stdlib/issues/3726), [#3727](https://github.com/stdlib-js/stdlib/issues/3727), [#3728](https://github.com/stdlib-js/stdlib/issues/3728), [#3729](https://github.com/stdlib-js/stdlib/issues/3729), [#3730](https://github.com/stdlib-js/stdlib/issues/3730), [#3731](https://github.com/stdlib-js/stdlib/issues/3731), [#3732](https://github.com/stdlib-js/stdlib/issues/3732), [#4977](https://github.com/stdlib-js/stdlib/issues/4977), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#9567](https://github.com/stdlib-js/stdlib/issues/9567)
 
 </section>
 
@@ -54,6 +54,10 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`4f42b6a`](https://github.com/stdlib-js/stdlib/commit/4f42b6af6b471d4ba9786f73d308e93992a12cdb) - **bench:** refactor to use string interpolation in `stats/base/dists/levy/mean` [(#9896)](https://github.com/stdlib-js/stdlib/pull/9896) _(by Daksha Raj)_
+-   [`99d1d40`](https://github.com/stdlib-js/stdlib/commit/99d1d40243aee2ea033af6eb4cc168841755a62e) - **test:** remove duplicate test cases in `stats/base/dists/levy` packages _(by Philipp Burckhardt)_
+-   [`a7a77a7`](https://github.com/stdlib-js/stdlib/commit/a7a77a7ba28bc0f55275db3a77a0117f0679b317) - **test:** remove duplicate NaN test cases in normal mean [(#9588)](https://github.com/stdlib-js/stdlib/pull/9588) _(by Suyash Pathak)_
+-   [`50b3a2c`](https://github.com/stdlib-js/stdlib/commit/50b3a2c95317bf69b879709c648aacf908439c16) - **docs:** fix function name tags _(by Philipp Burckhardt)_
 -   [`9b13062`](https://github.com/stdlib-js/stdlib/commit/9b130625f0f19866a877023e9be85204636ef01e) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
 -   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
 -   [`4589cee`](https://github.com/stdlib-js/stdlib/commit/4589cee4e69b2a4c4a433321f413824a69eebb6e) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
@@ -103,11 +107,12 @@ A total of 12 issues were closed in this release:
 
 ### Contributors
 
-A total of 11 people contributed to this release. Thank you to the following contributors:
+A total of 13 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
 -   Athan Reines
+-   Daksha Raj
 -   Dhruv Arvind Singh
 -   Hemant M Mehta
 -   Jaison Dsouza
@@ -115,6 +120,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 -   Nishchay Rajput
 -   Philipp Burckhardt
 -   Saurabh Singh
+-   Suyash Pathak
 -   Vivek Maurya
 
 </section>

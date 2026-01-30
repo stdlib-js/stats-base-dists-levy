@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-dists-levy",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Lévy distribution.",
   "license": "Apache-2.0",
   "author": {
@@ -38,16 +38,16 @@
   "dependencies": {
     "@stdlib/stats-base-dists-levy-cdf": "^0.2.2",
     "@stdlib/stats-base-dists-levy-ctor": "^0.2.2",
-    "@stdlib/stats-base-dists-levy-entropy": "^0.2.2",
-    "@stdlib/stats-base-dists-levy-logcdf": "^0.2.2",
-    "@stdlib/stats-base-dists-levy-logpdf": "^0.2.2",
-    "@stdlib/stats-base-dists-levy-mean": "^0.2.2",
-    "@stdlib/stats-base-dists-levy-median": "^0.2.2",
-    "@stdlib/stats-base-dists-levy-mode": "^0.2.2",
-    "@stdlib/stats-base-dists-levy-pdf": "^0.2.2",
-    "@stdlib/stats-base-dists-levy-quantile": "^0.2.2",
-    "@stdlib/stats-base-dists-levy-stdev": "^0.2.2",
-    "@stdlib/stats-base-dists-levy-variance": "^0.2.2",
+    "@stdlib/stats-base-dists-levy-entropy": "^0.3.0",
+    "@stdlib/stats-base-dists-levy-logcdf": "^0.3.0",
+    "@stdlib/stats-base-dists-levy-logpdf": "^0.3.0",
+    "@stdlib/stats-base-dists-levy-mean": "^0.3.0",
+    "@stdlib/stats-base-dists-levy-median": "^0.3.0",
+    "@stdlib/stats-base-dists-levy-mode": "^0.3.0",
+    "@stdlib/stats-base-dists-levy-pdf": "^0.3.0",
+    "@stdlib/stats-base-dists-levy-quantile": "^0.3.0",
+    "@stdlib/stats-base-dists-levy-stdev": "^0.3.0",
+    "@stdlib/stats-base-dists-levy-variance": "^0.3.0",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
