@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-26)
+## Unreleased (2026-05-02)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
+-   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
 -   [`f9dbbfa`](https://github.com/stdlib-js/stdlib/commit/f9dbbfaf48e1830f1c9fb685856eac2edba3fac6) - **docs:** fix C examples [(#11138)](https://github.com/stdlib-js/stdlib/pull/11138) _(by anee3, Athan Reines)_
 -   [`685691c`](https://github.com/stdlib-js/stdlib/commit/685691c6065af53a0527bcd690d1ade468f452df) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`0c1fea4`](https://github.com/stdlib-js/stdlib/commit/0c1fea42a94d1ec0d4ba8e9f29e411f0f3515041) - **bench:** update random value generation for `stats/base/dists/levy` [(#10449)](https://github.com/stdlib-js/stdlib/pull/10449) _(by Lokesh Ranjan, Philipp Burckhardt)_
