@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-24)
+## Unreleased (2026-06-06)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`03bb27c`](https://github.com/stdlib-js/stdlib/commit/03bb27c0d63fdbea701e3de9c9fcde3fe5100999) - use scale parameter name `c` in `base/dists/levy/cdf` [(#12488)](https://github.com/stdlib-js/stdlib/pull/12488)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,9 @@
 
 <details>
 
+-   [`9cc0f8a`](https://github.com/stdlib-js/stdlib/commit/9cc0f8ad37849993582227cd466d2ff43a111548) - **docs:** update `stats/base/dists/levy` TypeScript declarations [(#12605)](https://github.com/stdlib-js/stdlib/pull/12605) _(by stdlib-bot)_
+-   [`03bb27c`](https://github.com/stdlib-js/stdlib/commit/03bb27c0d63fdbea701e3de9c9fcde3fe5100999) - **fix:** use scale parameter name `c` in `base/dists/levy/cdf` [(#12488)](https://github.com/stdlib-js/stdlib/pull/12488) _(by Philipp Burckhardt)_
+-   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`3fe5568`](https://github.com/stdlib-js/stdlib/commit/3fe55682827c8e66b74576d5cf6fe396001d4571) - **docs:** propagate fixes from `develop` across `stats`, `blas`, and `plot` siblings [(#12267)](https://github.com/stdlib-js/stdlib/pull/12267) _(by Philipp Burckhardt, Athan Reines)_
 -   [`47f803e`](https://github.com/stdlib-js/stdlib/commit/47f803efb7e6e84fb26a7ded647b9a398b29a226) - **docs:** fix scale parameter reference in `@stdlib/stats-base/dists/levy/entropy` [(#12258)](https://github.com/stdlib-js/stdlib/pull/12258) _(by Philipp Burckhardt)_
 -   [`04ea19c`](https://github.com/stdlib-js/stdlib/commit/04ea19c2fada1d1570f706cf9b3a9993195a2e1c) - **docs:** correct scale parameter JSDoc type in `stats/base/dists/levy` [(#12027)](https://github.com/stdlib-js/stdlib/pull/12027) _(by Philipp Burckhardt)_
