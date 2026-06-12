@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-10)
+## Unreleased (2026-06-12)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`77195c3`](https://github.com/stdlib-js/stdlib/commit/77195c343d9d48e264a58f8ec213d0df53ca7317) - **docs:** update namespace table of contents [(#12835)](https://github.com/stdlib-js/stdlib/pull/12835) _(by stdlib-bot)_
+-   [`cae5335`](https://github.com/stdlib-js/stdlib/commit/cae53357950b4c389b0020878c268995cd79d222) - **docs:** propagate develop fixes to sibling packages [(#12736)](https://github.com/stdlib-js/stdlib/pull/12736) _(by Philipp Burckhardt)_
 -   [`9cc0f8a`](https://github.com/stdlib-js/stdlib/commit/9cc0f8ad37849993582227cd466d2ff43a111548) - **docs:** update `stats/base/dists/levy` TypeScript declarations [(#12605)](https://github.com/stdlib-js/stdlib/pull/12605) _(by stdlib-bot)_
 -   [`03bb27c`](https://github.com/stdlib-js/stdlib/commit/03bb27c0d63fdbea701e3de9c9fcde3fe5100999) - **fix:** use scale parameter name `c` in `base/dists/levy/cdf` [(#12488)](https://github.com/stdlib-js/stdlib/pull/12488) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
