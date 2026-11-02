@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-16)
+## Unreleased (2026-11-02)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,11 @@
 
 <details>
 
+-   [`3d0f691`](https://github.com/stdlib-js/stdlib/commit/3d0f691c9cf07ed7bffa4f8c6ba663f55908d2ae) - **refactor:** use `constants/float64/nan` in `stats/base/dists/levy/stdev` [(#16383)](https://github.com/stdlib-js/stdlib/pull/16383) _(by Hardik Gupta)_
+-   [`729ec95`](https://github.com/stdlib-js/stdlib/commit/729ec95c344790e6282a38b84ae6c7cb846dde9d) - **refactor:** use `constants/float64/nan` in `stats/base/dists/levy/mode` [(#16381)](https://github.com/stdlib-js/stdlib/pull/16381) _(by Hardik Gupta)_
+-   [`eb0d4e0`](https://github.com/stdlib-js/stdlib/commit/eb0d4e00e50bd26c88ff3562ff90438ceba5112f) - **refactor:** use `constants/float64/nan` in `stats/base/dists/levy/median` [(#16372)](https://github.com/stdlib-js/stdlib/pull/16372) _(by Hardik Gupta)_
+-   [`50e0691`](https://github.com/stdlib-js/stdlib/commit/50e0691613d8a044b075b89bf6f1a0e6ac2e2851) - **refactor:** use `constants/float64/nan` in `stats/base/dists/levy/mean` [(#16367)](https://github.com/stdlib-js/stdlib/pull/16367) _(by Hardik Gupta)_
+-   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
 -   [`e8b82f8`](https://github.com/stdlib-js/stdlib/commit/e8b82f8f72e9941f1b081308e0b9690cbb33f9a1) - **test:** migrate `stats/base/dists/levy/cdf` to ULP-based assertions [(#15084)](https://github.com/stdlib-js/stdlib/pull/15084) _(by Aryan kumar)_
 -   [`10217a4`](https://github.com/stdlib-js/stdlib/commit/10217a47e51d3c8eeb6af12c072c4bbbc1d8b743) - **test:** migrate `stats/base/dists/levy/median` to ULP-based assertions [(#15015)](https://github.com/stdlib-js/stdlib/pull/15015) _(by Aryan kumar, Athan Reines)_
 -   [`f5da4b5`](https://github.com/stdlib-js/stdlib/commit/f5da4b52278b815b44fc1f258e66da1b83b4342f) - **test:** migrate `stats/base/dists/levy/mode` to ULP-based assertions [(#15014)](https://github.com/stdlib-js/stdlib/pull/15014) _(by Aryan kumar, Athan Reines)_
@@ -63,10 +68,11 @@
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aryan kumar
 -   Athan Reines
+-   Hardik Gupta
 -   Lokesh Ranjan
 -   Philipp Burckhardt
 -   Vishal Gaikwad
